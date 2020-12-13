@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
-  
   "scripts": {
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
@@ -26,6 +25,7 @@
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.10",
     "babel-loader": "^8.2.2",
+    "file-loader": "^6.2.0",
     "webpack": "^5.10.1",
     "webpack-cli": "^4.2.0"
   }
